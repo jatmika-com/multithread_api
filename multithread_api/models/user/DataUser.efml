@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore namespace="appglobal.models" p1:name="data_model" p1:Guid="6acdef2b-8453-40ff-935f-a8df0a44cdcd" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="DataUser" entity-set="DataUsers" p1:Guid="a075ced9-d0c2-4aad-a184-91bb4b2a57e4">
+    <id name="nik" type="String" p1:ValidateMaxLength="30" p1:ValidateRequired="true" p1:Guid="193361f2-5509-42a4-a785-bbb30052f0e9">
+      <column name="" length="30" p1:unicode="False" />
+    </id>
+    <property name="nama" type="String" p1:ValidateMaxLength="255" p1:ValidateRequired="true" p1:Guid="5ccb2b17-accf-49f0-bffc-ffb88c8d23c6">
+      <column name="" length="255" p1:unicode="False" />
+    </property>
+    <property name="alamat" type="String" p1:ValidateMaxLength="255" p1:ValidateRequired="true" p1:Guid="b0a80a30-4964-4f3f-8d53-c7cfa110763f">
+      <column name="" length="255" p1:unicode="False" />
+    </property>
+  </class>
+</efcore>
